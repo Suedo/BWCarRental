@@ -19,12 +19,18 @@ import { environment } from '../environments/environment';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { InMemWebDb } from './admin/in-mem-api/memdata';
+import { ReservationModule } from './reservation/reservation.module';
+import { UserModule } from './user/user.module';
+import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './home/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +41,9 @@ import { InMemWebDb } from './admin/in-mem-api/memdata';
     EffectsModule.forRoot([AppEffects]),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     StoreRouterConnectingModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReservationModule,
+    UserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
