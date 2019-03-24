@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "city": "Delhi",
+    "state": "Delhi_NCR",
+    "country": "India"
+  },
+  {
+    "id": 2,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  {
+    "id": 3,
+    "city": "Chennai",
+    "state": "Tamil_Nadu",
+    "country": "India"
+  },
+  {
+    "id": 4,
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  },
+  {
+    "id": 5,
+    "city": "Kolkata",
+    "state": "West_Bengal",
+    "country": "India"
+  }
+]
