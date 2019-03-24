@@ -1,4 +1,4 @@
-package com.bwcarrental.EurekaServer;
+package com.bwcarrental.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

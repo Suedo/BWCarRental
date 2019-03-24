@@ -1,4 +1,4 @@
-package com.bwcarrental.RoleService;
+package com.bwcarrental.roleservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
