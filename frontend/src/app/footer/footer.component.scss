@@ -1,0 +1,22 @@
+$deep-green: #15804d;
+$light-green: #169a5a;
+
+
+.footer-container {
+ margin: 0px;
+ padding: 0px;
+ max-width: 100vw !important;
+}
+
+.footer-container > .row {
+  background-color: $light-green;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  // below is to over ride default 'row' class of bootstrap
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,23 @@
+$deep-green: #15804d;
+$light-green: #169a5a;
+
+
+.header-container {
+ margin: 0px;
+ padding: 0px;
+ max-width: 100vw !important;
+}
+
+.header-container > .row1 {
+  background-color: $light-green;
+}
+
+.header-container > .row2 {
+  background-color: $deep-green;
+}
+
+.row1,.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
