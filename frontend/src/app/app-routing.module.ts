@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'admin',
     canLoad: [AuthGuard],
-    loadChildren: 'admin#AdminModule'
+    loadChildren: './admin/admin.module#AdminModule'
   },
   {
     path: 'reservation',
