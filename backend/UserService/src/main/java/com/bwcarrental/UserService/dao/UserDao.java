@@ -1,11 +1,20 @@
 package com.bwcarrental.userservice.dao;
 
 import com.bwcarrental.userservice.model.User;
-import org.springframework.data.repository.CrudRepository;
+import java.util.List;
+
 
 /**
  * Created by SUBHAJIT on 24-03-2019.
  */
-public interface UserDao extends CrudRepository{
-    User findByGender(String name);
+
+public interface UserDao {
+    
+    public List<User> findAll();
+	
+	public User findById(int theId);
+	
+	public void save(User theUser);
+	
+	public void deleteById(int theId);
 }
