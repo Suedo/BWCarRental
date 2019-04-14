@@ -1,4 +1,4 @@
-package com.bwcarrental.locationservice;
+package com.bwcarrental.LocationService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
