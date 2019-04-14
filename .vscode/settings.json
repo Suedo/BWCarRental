@@ -4,5 +4,11 @@
         "titleBar.inactiveBackground": "#efc05399",
         "titleBar.activeForeground": "#15202b",
         "titleBar.inactiveForeground": "#15202b99"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     }
 }
